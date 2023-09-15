@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.element {
+    margin: 5px; /* Опціонально: Додайте бажані відступи між елементами */
+    padding: 20px; /* Опціонально: Додайте бажані відступи всередині елементів */
+    border: 1px solid #000; /* Опціонально: Додайте рамку для елементів */
+}
+body {
+    background-color:  rgb(95, 149, 95);
+}
